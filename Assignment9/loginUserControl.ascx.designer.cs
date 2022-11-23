@@ -7,65 +7,92 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Member
+namespace Project5
 {
 
 
-    public partial class _Default
+    public partial class WebUserControl1
     {
 
         /// <summary>
-        /// ButtonMemberPage control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonMemberPage;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// ButtonStaffPage control.
+        /// UserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonStaffPage;
+        protected global::System.Web.UI.WebControls.TextBox UserName;
 
         /// <summary>
-        /// toLogin control.
+        /// Password control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button toLogin;
+        protected global::System.Web.UI.WebControls.TextBox Password;
 
         /// <summary>
-        /// toAddMember control.
+        /// ImageString control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button toAddMember;
+        protected global::System.Web.UI.WebControls.Image ImageString;
 
         /// <summary>
-        /// toTheater control.
+        /// refreshImage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button toTheater;
+        protected global::System.Web.UI.WebControls.Button refreshImage;
 
         /// <summary>
-        /// DLLButton control.
+        /// captchaBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DLLButton;
+        protected global::System.Web.UI.WebControls.TextBox captchaBox;
+
+        /// <summary>
+        /// submitButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button submitButton;
+
+        /// <summary>
+        /// result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label result;
+
+        /// <summary>
+        /// Captcha control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Captcha;
     }
 }

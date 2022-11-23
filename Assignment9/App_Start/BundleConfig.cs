@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.UI;
 
-namespace Assignment9
+namespace Member
 {
     public class BundleConfig
     {

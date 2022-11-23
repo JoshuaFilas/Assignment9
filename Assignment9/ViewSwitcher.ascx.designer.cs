@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Assignment9 {
+namespace Member {
     
     
     public partial class ViewSwitcher {

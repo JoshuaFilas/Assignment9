@@ -11,61 +11,43 @@ namespace Member
 {
 
 
-    public partial class _Default
+    public partial class UserLogin
     {
 
         /// <summary>
-        /// ButtonMemberPage control.
+        /// UserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonMemberPage;
+        protected global::System.Web.UI.WebControls.TextBox UserName;
 
         /// <summary>
-        /// ButtonStaffPage control.
+        /// Password control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonStaffPage;
+        protected global::System.Web.UI.WebControls.TextBox Password;
 
         /// <summary>
-        /// toLogin control.
+        /// register control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button toLogin;
+        protected global::System.Web.UI.WebControls.Button register;
 
         /// <summary>
-        /// toAddMember control.
+        /// Output control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button toAddMember;
-
-        /// <summary>
-        /// toTheater control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button toTheater;
-
-        /// <summary>
-        /// DLLButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DLLButton;
+        protected global::System.Web.UI.WebControls.Label Output;
     }
 }
