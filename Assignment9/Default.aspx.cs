@@ -36,7 +36,18 @@ namespace Member
 
         protected void ButtonStaffPage_Click(object sender, EventArgs e)
         {
-
+            string cookieId = "login" + Session.SessionID;
+            // get cookie
+            HttpCookie cookie = Request.Cookies[cookieId];
+            // check if cookie is good
+            if (cookie == null)
+            {
+                Response.Redirect("UserLogin.aspx");
+            }
+            else
+            {
+                Response.Redirect("Staff.aspx");
+            }
         }
     }
 }
