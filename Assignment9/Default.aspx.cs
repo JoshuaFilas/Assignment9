@@ -36,13 +36,13 @@ namespace Member
 
         protected void ButtonStaffPage_Click(object sender, EventArgs e)
         {
-            string cookieId = "login" + Session.SessionID;
+            string cookieId = "StaffLogin" + Session.SessionID;
             // get cookie
             HttpCookie cookie = Request.Cookies[cookieId];
             // check if cookie is good
             if (cookie == null)
             {
-                Response.Redirect("UserLogin.aspx");
+                Response.Redirect("StaffLogin.aspx");
             }
             else
             {
