@@ -2,6 +2,10 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <br />
+    <h3>Introduction</h3>
+    <p>
+
+    </p>
     <asp:Button ID="ButtonMemberPage" runat="server" Text="Member Page" />
     <br />
     <br />
