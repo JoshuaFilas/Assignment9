@@ -21,5 +21,10 @@ namespace Staff
                 LabelGreeting.Text = "Welcome, " + cookie["Username"];
             }
         }
-	}
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("http://webstrar63.fulton.asu.edu/page8/Default");
+        }
+    }
 }
