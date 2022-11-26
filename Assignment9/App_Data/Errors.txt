@@ -17,3 +17,6 @@
 11/24/2022 10:18:54 AM    Error in: https://localhost:44395/StaffLogin    Error Message: Object reference not set to an instance of an object.
 11/24/2022 10:19:26 AM    Error in: https://localhost:44395/StaffLogin    Error Message: Object reference not set to an instance of an object.
 11/24/2022 10:20:01 AM    Error in: https://localhost:44395/StaffLogin    Error Message: Object reference not set to an instance of an object.
+11/26/2022 4:37:34 PM    Error in: https://localhost:44395/Member.aspx    Error Message: The file '/Member.aspx' does not exist.
+11/26/2022 4:38:10 PM    Error in: https://localhost:44395/Member.aspx    Error Message: The file '/Member.aspx' does not exist.
+11/26/2022 4:38:46 PM    Error in: https://localhost:44395/Member.aspx    Error Message: The file '/Member.aspx' does not exist.

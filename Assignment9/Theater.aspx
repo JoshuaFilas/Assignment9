@@ -79,6 +79,4 @@
         <asp:Table ID="TheaterTable" runat="server" GridLines="Both">
         </asp:Table>
     </p>
-    
-   
 </asp:Content>

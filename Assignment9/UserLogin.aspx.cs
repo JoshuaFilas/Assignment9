@@ -26,7 +26,7 @@ namespace Member
             XDocument xml = XDocument.Load(fLocation);
             if (authentication(UserName.Text, encrypt.encryptPassword(Password.Text), xml.Root))
             {
-                Response.Redirect("Theater.aspx");
+                FormsAuthentication.RedirectFromLoginPage(UserName.Text, false);
             }
             else
             {

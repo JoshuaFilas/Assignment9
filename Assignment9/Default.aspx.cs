@@ -14,26 +14,6 @@ namespace Member
 
         }
 
-        protected void toLogin_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("UserLogin.aspx");
-        }
-
-        protected void toAddMember_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("createUser.aspx");
-        }
-
-        protected void toTheater_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Theater.aspx");
-        }
-
-        protected void DLLButton_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("DLL.aspx");
-        }
-
         protected void ButtonStaffPage_Click(object sender, EventArgs e)
         {
             string cookieId = "StaffLogin" + Session.SessionID;
@@ -48,6 +28,13 @@ namespace Member
             {
                 Response.Redirect("Staff.aspx");
             }
+        }
+
+        protected void ButtonMemberPage_Click(object sender, EventArgs e)
+        {
+           
+                Response.Redirect("Protected/Member.aspx");
+           
         }
     }
 }

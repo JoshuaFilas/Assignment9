@@ -45,7 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="dll">
-      <HintPath>..\dll\bin\Debug\netstandard2.0\dll.dll</HintPath>
+      <HintPath>..\..\Project5\dll\bin\Debug\netstandard2.0\dll.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -58,7 +58,9 @@
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Web" />
+    <Reference Include="System.Web">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Web.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
@@ -154,6 +156,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Protected\Member.aspx" />
     <Content Include="Properties\DataSources\System.Xml.Linq.XElement.datasource" />
     <None Include="Connected Services\XML\Service1.wsdl" />
     <None Include="Connected Services\XML\Service1.xsd">
@@ -162,6 +165,7 @@
     <None Include="Connected Services\XML\Service11.xsd">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="Protected\Web.config" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -244,6 +248,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Protected\Member.aspx.cs">
+      <DependentUpon>Member.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Protected\Member.aspx.designer.cs">
+      <DependentUpon>Member.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
